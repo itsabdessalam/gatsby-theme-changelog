@@ -90,6 +90,8 @@ You can override theme components using [Component Shadowing](https://www.gatsby
 
 Example of release post in `content/posts/[POST_TITLE]/index.mdx`
 
+You can create pages by passing type to `page`
+
 ```
 ---
 type: post
