@@ -111,7 +111,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 				}
 			}
 			mdxPosts: allBlogPost(
-				filter: { postType: { eq: "post" } }
+				filter: { postType: { eq: "post" }, draft: { eq: false } }
 				sort: { fields: [date, title], order: DESC }
 				limit: 1000
 			) {
@@ -132,7 +132,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 				distinct(field: tags)
 			}
 			mdxPages: allBlogPost(
-				filter: { postType: { eq: "page" } }
+				filter: { postType: { eq: "page" }, draft: { eq: false } }
 				sort: { fields: [date, title], order: DESC }
 				limit: 1000
 			) {

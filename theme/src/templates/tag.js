@@ -22,7 +22,7 @@ export const pageQuery = graphql`
 	query($tag: String!) {
 		allBlogPost(
 			sort: { fields: [date], order: DESC }
-			filter: { tags: { in: [$tag] } }
+			filter: { tags: { in: [$tag] }, draft: { eq: false } }
 		) {
 			edges {
 				node {
