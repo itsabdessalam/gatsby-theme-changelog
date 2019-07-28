@@ -28,7 +28,7 @@ const PostList = ({ posts, themeConfig, locale, tagsPath }) => {
 
 	return (
 		<Layout cssClass="posts blog-style">
-			<SEO title="Releases" description="posts description" />
+			<SEO title="Releases" />
 			<div className="main-content">
 				<Styled.h3 className="heading-title">All Releases</Styled.h3>
 				<div className="posts-wrapper">

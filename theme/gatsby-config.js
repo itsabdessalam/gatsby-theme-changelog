@@ -7,7 +7,6 @@ module.exports = options => {
 		siteMetadata: {
 			url: "https://abdessalam.dev",
 			title: "Blog Title Placeholder",
-			logo: "logo-placeholder.png",
 			author: "Name Placeholder",
 			description: "Description placeholder",
 			locale: "en",
