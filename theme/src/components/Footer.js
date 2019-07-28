@@ -1,7 +1,7 @@
 /** @jsx jsx */
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { jsx, Container } from "theme-ui";
+import { jsx, Styled, Container } from "theme-ui";
 import "./Footer.css";
 
 const Footer = () => {
@@ -14,8 +14,13 @@ const Footer = () => {
 						color: "gray"
 					}}
 				>
-					© {new Date().getFullYear()}, Built with{" "}
-					<a href="https://www.gatsbyjs.org">Gatsby</a>
+					© {new Date().getFullYear()}, Built with
+					<Styled.a
+						sx={{ variant: "links.primary", marginLeft: "5px" }}
+						href="https://www.gatsbyjs.org"
+					>
+						Gatsby
+					</Styled.a>
 				</div>
 			</Container>
 		</footer>
