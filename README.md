@@ -122,6 +122,7 @@ Contributions, issues and feature requests are welcome !
 
 ## Demo
 
+[Live demo](https://gatsby-demo-changelog.netlify.com/)
 
 ## Author
 
