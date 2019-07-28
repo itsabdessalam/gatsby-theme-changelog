@@ -1,0 +1,31 @@
+.button-switcher {
+	display: block;
+	position: relative;
+	width: 48px;
+	height: 22px;
+	margin-left: 8px;
+	padding: 0;
+	border: none;
+	background: transparent;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.button-switcher::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 12px;
+	width: 16px;
+	height: 16px;
+	background: transparent;
+	-webkit-transform: translateZ(0px) translate(-50%, -50%);
+	transform: translateZ(0px) translate(-50%, -50%);
+	border-radius: 30px;
+	transition: transform 0.2s cubic-bezier(0.75, 0, 0.08, 1) 0s,
+		-webkit-transform 0.2s cubic-bezier(0.75, 0, 0.08, 1) 0s;
+}
+
+.button-switcher.active::after {
+	transform: translateX(24px) translate(-50%, -50%);
+}

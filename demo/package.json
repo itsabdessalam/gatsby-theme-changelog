@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.13.32",
+    "gatsby-theme-changelog": "*",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

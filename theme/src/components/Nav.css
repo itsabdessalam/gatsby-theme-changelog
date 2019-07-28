@@ -1,0 +1,67 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo,
+.navbar .logo h1 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.navbar .logo-inner {
+	display: flex;
+	align-items: center;
+}
+
+.navbar .logo-inner h1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar .logo-inner .logo-img-link {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.navbar .logo-inner .logo-img-link:empty {
+	width: 0;
+	height: 0;
+	margin: 0;
+}
+
+.navbar .logo-inner .site-title {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.navbar .logo-inner .site-subtitle {
+	font-size: 16px;
+	font-weight: 300;
+	padding-left: 5px;
+}
+
+.navbar .logo-inner .site-url {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar .nav-links a {
+	font-size: 16px;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar li:not(:last-child) {
+	margin-right: 10px;
+}

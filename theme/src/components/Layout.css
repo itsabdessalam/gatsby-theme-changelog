@@ -1,0 +1,55 @@
+body {
+	color: #3a3f46;
+}
+
+body .main-content {
+	max-width: 800px;
+	margin: auto;
+}
+
+body blockquote {
+	padding: 2px 16px;
+	border-left: 4px solid#dfe2e5;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+body blockquote p {
+	margin: 0;
+	font-size: 16px;
+}
+
+a.anchor-header {
+	margin-left: -30px;
+	padding-right: 10px;
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
+	transition: all 0.2s cubic-bezier(0.75, 0, 0.08, 1) 0s;
+}
+
+img {
+	max-width: 100%;
+}
+
+a.anchor-header svg {
+	fill: currentColor;
+}
+
+h1:hover a.anchor-header,
+h2:hover a.anchor-header,
+h3:hover a.anchor-header,
+h4:hover a.anchor-header,
+h5:hover a.anchor-header,
+h6:hover a.anchor-header {
+	opacity: 1;
+	visibility: visible;
+	height: inherit;
+}
+
+hr {
+	border: 0 none;
+	color: #cccccc;
+	height: 4px;
+	padding: 0;
+}

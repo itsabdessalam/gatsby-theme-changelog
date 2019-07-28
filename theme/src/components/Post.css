@@ -1,0 +1,31 @@
+.post-container .post-title {
+	margin-bottom: 5px;
+}
+
+.post-container .post-meta {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.post-container .post-meta .separator {
+	font-size: 12px;
+	margin: 0 5px;
+}
+
+.post-container .post-tags {
+	margin: 32px 0 44px 0;
+}
+.post-container .post-tags a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 14px;
+	padding: 4px 12px;
+	position: relative;
+	border-radius: 2px;
+	background: #f8f9fb;
+	color: #636d78;
+}
+
+.post-container .post-tags a:not(:last-of-type) {
+	margin-right: 8px;
+}

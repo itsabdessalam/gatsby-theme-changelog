@@ -1,0 +1,20 @@
+.pagination {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 30px 0;
+}
+.pagination .previous,
+.pagination .next {
+	width: 50%;
+}
+
+.pagination .next {
+	float: right;
+	text-align: right;
+}
+
+.pagination .previous {
+	float: left;
+	text-align: left;
+}
