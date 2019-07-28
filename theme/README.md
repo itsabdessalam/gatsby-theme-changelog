@@ -86,6 +86,24 @@ You can override theme components using [Component Shadowing](https://www.gatsby
 
 4. You can also override or add new global css styles in assets as they are imported in `globalStyle.js`
 
+## Writing content 
+
+Example of release post
+
+```
+---
+type: post
+title: v1.0.0
+date: 2019-07-22
+draft: false
+author: Abdessalam
+tags:
+  - New
+---
+
+Content goes here
+```
+
 ## 🧐 What's inside?
 
 ```
