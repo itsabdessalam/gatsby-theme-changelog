@@ -16,7 +16,6 @@ const PostsTemplate = ({
 };
 
 PostsTemplate.propTypes = {
-	data: PropTypes.object.isRequired,
 	pageContext: PropTypes.object.isRequired
 };
 

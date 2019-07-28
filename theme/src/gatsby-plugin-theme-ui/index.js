@@ -74,7 +74,7 @@ export default {
 	fonts: {
 		default:
 			// eslint-disable-next-line prettier/prettier
-			'-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+			"-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""
 	},
 	fontSizes: [16, 18, 20, 24, 32, 40],
 	fontWeights: {
