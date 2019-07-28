@@ -14,16 +14,16 @@ module.exports = {
 	},
 	env: {
 		browser: true,
-		mocha: true,
 		node: true
 	},
+	plugins: ["react"],
 	rules: {
 		"linebreak-style": ["error", "unix"],
 		quotes: ["error", "double"],
 		semi: ["error", "always"],
 		"arrow-body-style": ["error", "always"],
 		radix: 0,
-		"object-curly-spacing": ["error", "always", { arraysInObjects: true }],
+		"object-curly-spacing": [1, "always"],
 		"no-shadow": [
 			2,
 			{
@@ -78,7 +78,6 @@ module.exports = {
 				tabWidth: 4,
 				bracketSpacing: true
 			}
-		],
-		plugins: ["react"]
+		]
 	}
 };

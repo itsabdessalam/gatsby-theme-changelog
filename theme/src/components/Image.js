@@ -35,7 +35,9 @@ const Image = props => {
 		`
 	);
 	return renderImage(
-		images.edges.find(image => image.node.relativePath === file)
+		images.edges.find(image => {
+			return image.node.relativePath === file;
+		})
 	);
 };
 export default Image;

@@ -4,7 +4,7 @@ import React from "react";
 import { jsx, Container } from "theme-ui";
 import "./Footer.css";
 
-const Footer = ({ socialLinks }) => {
+const Footer = () => {
 	return (
 		<footer className="footer">
 			<Container className="footer-inner">
@@ -14,7 +14,8 @@ const Footer = ({ socialLinks }) => {
 						color: "gray"
 					}}
 				>
-					© 2019, Built with Gatsby
+					© {new Date().getFullYear()}, Built with{" "}
+					<a href="https://www.gatsbyjs.org">Gatsby</a>
 				</div>
 			</Container>
 		</footer>

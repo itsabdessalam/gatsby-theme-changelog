@@ -1,8 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import PostList from "../components/PostList";
 
-const PostsTemplate = ({
+const TagTemplate = ({
 	data,
 	pageContext: { locale, themeConfig, tagsPath }
 }) => {
@@ -16,7 +17,12 @@ const PostsTemplate = ({
 	);
 };
 
-export default PostsTemplate;
+TagTemplate.propTypes = {
+	data: PropTypes.object.isRequired,
+	pageContext: PropTypes.object.isRequired
+};
+
+export default TagTemplate;
 
 export const pageQuery = graphql`
 	query($tag: String!) {

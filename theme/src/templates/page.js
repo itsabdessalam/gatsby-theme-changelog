@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Page from "../components/Page";
 
@@ -11,6 +12,11 @@ const PageTemplate = ({ data, pageContext: { siteURL, locale, tagsPath } }) => {
 			tagsPath={tagsPath}
 		/>
 	);
+};
+
+PageTemplate.propTypes = {
+	data: PropTypes.object.isRequired,
+	pageContext: PropTypes.object.isRequired
 };
 
 export default PageTemplate;

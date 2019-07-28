@@ -9,7 +9,7 @@ import Pagination from "../components/Pagination";
 import { slugify, formatDate } from "../utils/helpers";
 import "./Post.css";
 
-const Post = ({ data, siteURL, locale, tagsPath, next, previous }) => {
+const Post = ({ data, locale, tagsPath, next, previous }) => {
 	const post = data.blogPost;
 
 	return (

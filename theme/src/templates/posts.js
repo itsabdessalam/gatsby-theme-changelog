@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import PostList from "../components/PostList";
 
 const PostsTemplate = ({
@@ -12,6 +13,11 @@ const PostsTemplate = ({
 			tagsPath={tagsPath}
 		/>
 	);
+};
+
+PostsTemplate.propTypes = {
+	data: PropTypes.object.isRequired,
+	pageContext: PropTypes.object.isRequired
 };
 
 export default PostsTemplate;
