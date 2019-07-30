@@ -101,7 +101,12 @@ export default merge({}, baseTheme, {
 });
 ```
 
-4. You can also override or add new global css styles in assets as they are imported in `globalStyle.js`
+4. You can also override or add new global css styles in assets as they are imported in `globalStyle.js` which has an importAll helper
+
+```javascript
+import { importAll } from "./helpers";
+importAll(require.context("../assets/", true, /\.css$/));
+```
 
 ## ✍ Writing content
 

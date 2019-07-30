@@ -5,7 +5,7 @@ module.exports = options => {
 
 	return {
 		siteMetadata: {
-			url: "https://abdessalam.dev",
+			url: "https://gatsbyjs.org",
 			title: "Blog Title Placeholder",
 			author: "Name Placeholder",
 			description: "Description placeholder",
