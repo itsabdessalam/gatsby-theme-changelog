@@ -1,6 +1,6 @@
 # Changelog - Gatsby Theme
 
-> Ready to be used changelog theme
+Ready to be used changelog theme
 
 ## ✨ Features
 
