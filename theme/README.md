@@ -1,19 +1,19 @@
 # Changelog - Gatsby Theme
 
-Ready to be used changelog theme
+Changelog theme starter
 
 ## ✨ Features
 
--   Theme UI for styling
--   PrismJS highlighting
--   Gatsby Image
--   Releases in MDX
--   Tags
--   Static pages for non post types
--   SEO friendly
--   Fully customizable through `gatsby-config.js`, `gatsby-plugin-theme-ui` and **shadow components**
--   Linting with ESLint and Stylelint
--   Code formatting with Prettier
+- Theme UI for styling
+- PrismJS highlighting
+- Gatsby Image
+- Releases in MDX
+- Tags
+- Static pages for non post types
+- SEO friendly
+- Fully customizable through `gatsby-config.js`, `gatsby-plugin-theme-ui` and **shadow components**
+- Linting with ESLint and Stylelint
+- Code formatting with Prettier
 
 ## 🚀 Installation
 
